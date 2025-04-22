@@ -20,34 +20,34 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is ZCRUM?",
+    question: "What is ProjectoX?",
     answer:
-      "ZCRUM is a powerful project management tool designed to help teams organize, track, and manage their work efficiently. It combines intuitive design with robust features to streamline your workflow and boost productivity.",
+      "ProjectoX is a powerful project management tool designed to help teams organize, track, and manage their work efficiently. It combines intuitive design with robust features to streamline your workflow and boost productivity.",
   },
   {
-    question: "How does ZCRUM compare to other project management tools?",
+    question: "How does ProjectoX compare to other project management tools?",
     answer:
-      "ZCRUM offers a unique combination of intuitive design, powerful features, and flexibility. Unlike other tools, we focus on providing a seamless experience for both agile and traditional project management methodologies, making it versatile for various team structures and project types.",
+      "ProjectoX offers a unique combination of intuitive design, powerful features, and flexibility. Unlike other tools, we focus on providing a seamless experience for both agile and traditional project management methodologies, making it versatile for various team structures and project types.",
   },
   {
-    question: "Is ZCRUM suitable for small teams?",
+    question: "Is ProjectoX suitable for small teams?",
     answer:
-      "Absolutely! ZCRUM is designed to be scalable and flexible. It works great for small teams and can easily grow with your organization as it expands. Our user-friendly interface ensures that teams of any size can quickly adapt and start benefiting from ZCRUM's features.",
+      "Absolutely! ProjectoX is designed to be scalable and flexible. It works great for small teams and can easily grow with your organization as it expands. Our user-friendly interface ensures that teams of any size can quickly adapt and start benefiting from ProjectoX's features.",
   },
   {
-    question: "What key features does ZCRUM offer?",
+    question: "What key features does ProjectoX offer?",
     answer:
-      "ZCRUM provides a range of powerful features including intuitive Kanban boards for visualizing workflow, robust sprint planning tools for agile teams, comprehensive reporting for data-driven decisions, customizable workflows, time tracking, and team collaboration tools. These features work seamlessly together to enhance your project management experience.",
+      "ProjectoX provides a range of powerful features including intuitive Kanban boards for visualizing workflow, robust sprint planning tools for agile teams, comprehensive reporting for data-driven decisions, customizable workflows, time tracking, and team collaboration tools. These features work seamlessly together to enhance your project management experience.",
   },
   {
-    question: "Can ZCRUM handle multiple projects simultaneously?",
+    question: "Can ProjectoX handle multiple projects simultaneously?",
     answer:
-      "Yes, ZCRUM is built to manage multiple projects concurrently. You can easily switch between projects, and get a bird's-eye view of all your ongoing work. This makes ZCRUM ideal for organizations juggling multiple projects or clients.",
+      "Yes, ProjectoX is built to manage multiple projects concurrently. You can easily switch between projects, and get a bird's-eye view of all your ongoing work. This makes ProjectoX ideal for organizations juggling multiple projects or clients.",
   },
   {
     question: "Is there a learning curve for new users?",
     answer:
-      "While ZCRUM is packed with features, we've designed it with user-friendliness in mind. New users can quickly get up to speed thanks to our intuitive interface, helpful onboarding process, and comprehensive documentation.",
+      "While ProjectoX is packed with features, we've designed it with user-friendliness in mind. New users can quickly get up to speed thanks to our intuitive interface, helpful onboarding process, and comprehensive documentation.",
   },
 ];
 
@@ -80,14 +80,14 @@ export default function Home() {
         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold gradient-title pb-6 flex flex-col">
           Streamline Your Workflow <br />
           <span className="flex mx-auto gap-3 sm:gap-4 items-center">
-            with
-            <Image
-              src={"/logo2.png"}
-              alt="Zscrum Logo"
+            with ProjectoX
+            {/* <Image
+              src={"/logo4.png"}
+              alt="ProjectoX Logo"
               width={400}
               height={80}
               className="h-14 sm:h-24 w-auto object-contain"
-            />
+            /> */}
           </span>
         </h1>
         <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
@@ -126,15 +126,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Companies Carousel */}
-      <section className="py-20">
-        <div className="container mx-auto">
-          <h3 className="text-3xl font-bold mb-12 text-center">
-            Trusted by Industry Leaders
-          </h3>
-          <CompanyCarousel />
-        </div>
-      </section>
+      
 
       {/* FAQ Section */}
       <section className="bg-gray-900 py-20 px-5">
@@ -153,6 +145,7 @@ export default function Home() {
         </div>
       </section>
 
+             
       {/* CTA Section */}
       <section className="py-20 text-center px-5">
         <div className="container mx-auto">
@@ -160,7 +153,7 @@ export default function Home() {
             Ready to Transform Your Workflow?
           </h3>
           <p className="text-xl mb-12">
-            Join thousands of teams already using ZCRUM to streamline their
+            Join thousands of teams already using ProjectoX to streamline their
             projects and boost productivity.
           </p>
           <Link href="/onboarding">

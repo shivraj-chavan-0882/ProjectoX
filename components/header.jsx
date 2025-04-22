@@ -8,6 +8,7 @@ import Image from "next/image";
 import { checkUser } from "@/lib/checkUser";
 import UserLoading from "./user-loading";
 
+
 async function Header() {
   await checkUser();
 
@@ -17,7 +18,7 @@ async function Header() {
         <Link href="/">
           <h1 className="text-2xl font-bold">
             <Image
-              src={"/logo2.png"}
+              src={"/logo5.png"}
               alt="Zscrum Logo"
               width={200}
               height={56}
@@ -25,6 +26,7 @@ async function Header() {
             />
           </h1>
         </Link>
+        
         <div className="flex items-center gap-4">
           <Link href="/project/create">
             <Button variant="destructive" className="flex items-center gap-2">
